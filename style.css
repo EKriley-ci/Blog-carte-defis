@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+body {
+    background-color:  hsl(47, 88%, 63%);
+    font-family: 'Figtree';
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.carte {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 360px;
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+    position: relative;
+    }
+
+.carte img {
+    width: 100%;
+    min-width: 150px;
+    border-radius: 10px;
+}
+
+.Learning {
+    height: 100%;
+    width: auto;
+    min-width: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: start;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: start;
+}
+
+p {
+    color:  hsl(0, 0%, 42%);
+    font-size: 16px;
+}
+
+h2 a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+h2 a:hover {
+    color: hsl(47, 88%, 63%);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.43);
+}
+
+
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+}
+
+.description  {
+    line-height: 1.6;
+}
+
+.Autor {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.Autor img {
+    max-width: 32px;
+    min-width: 32px;
+}
+
+h3 {
+    font-weight: 900px;
+}
+
+.attribution {
+    color: white;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: purple;
+}
+
+@media screen and (max-width = 380px) and (min-width = 0px) {
+    .carte {
+        margin: 10px;
+    }
+    h2 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .description {
+        line-height: 0.5;
+    }
+}
